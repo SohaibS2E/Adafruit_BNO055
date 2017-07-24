@@ -1,0 +1,5 @@
+<launch>
+
+  <node pkg="bosch_imu_pkg" type="bosch_node.py" name="bosch_node" output="screen">
+  </node>
+</launch>
