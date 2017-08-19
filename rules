@@ -1,0 +1,6 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", SYMLINK+="IMU"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="15d1", ATTRS{idProduct}=="0000", SYMLINK+="Hokuyo"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="8087", ATTRS{idProduct}=="0a9e", SYMLINK+="Rover"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", SYMLINK+="Motors"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2a03", ATTRS{serial}=="5563530383835171F051", ATTRS{idProduct}=="0042", SYMLINK+="Encoders"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2341", ATTRS{serial}=="8553130353135121E1B1", ATTRS{idProduct}=="0010", SYMLINK+="Relay"
